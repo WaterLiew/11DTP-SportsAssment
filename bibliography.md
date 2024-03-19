@@ -1,4 +1,3 @@
 Walters bibliography (APA citation)
 
-https://app.logo.com/flow/business-name @19/03
-https://www.hexcolortool.com/#045caf
+HTML Color Codes - What’s your color. (n.d.). https://www.hexcolortool.com/

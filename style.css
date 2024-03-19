@@ -1,28 +1,41 @@
 *{
     box-sizing: border-box;
 }
-.seperater{
-    opacity: 0;
+.ClearBoth{
+    clear:both;
 }
 /*designing the top part*/
 nav{
     width:1200px;
     margin:0 auto;
-    background-color: red;
+    background-image: url(images/Background\ image.png);
 }
 nav ul{
     list-style-type:none;
     margin: 0;
     padding: 0;
     overflow:hidden;
+    clear:both;
 }
 nav ul li{
-    display: inline; /* forces all the li elements to go in the line */
+    display: inline;
     float: left;
 }
-nav ul li p{
-    clear:both;
-    font-size: 60px;
+/* cosmetic nav bar */
+.ImageLogo{
+    float:left;
+    margin: 15px 0;
+}
+.RightOfImage{
+    float:left;
+    width: 1050px;
+    text-align: center;
+    font-size:40px;
+    height:75px;
+}
+.RightOfImage p{
+    margin: 0;
+    padding: 0;
 }
 /* functional nav bar */
 nav ul li a{
