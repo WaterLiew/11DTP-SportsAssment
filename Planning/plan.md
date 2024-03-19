@@ -1,6 +1,7 @@
 My Plan
 
 Basketball team from "AI Generated School Premier Basketball"
+Motto: Effort to Excel
 
 COLOR SCHEME
 #2191FB Dodger Blue

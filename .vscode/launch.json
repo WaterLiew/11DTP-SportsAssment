@@ -6,10 +6,11 @@
     "configurations": [
 
         {
-            "type": "msedge",
+            "type": "msedge", //chrome
             "request": "launch",
             "name": "Open index.html",
             "file": "index.html"
         }
     ]
 }
+
