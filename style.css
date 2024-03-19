@@ -36,8 +36,8 @@ nav ul li{
 /* cosmetic nav bar */
 .ImageLogo{
     float:left;
-    margin: 15px 0;
-    width: 10%;
+    margin: 0 0;
+    width: 15%;
 }
 .RightOfImage{
     float:left;
