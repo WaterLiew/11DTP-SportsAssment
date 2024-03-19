@@ -1,6 +1,6 @@
 My Plan
 
-Basketball team from "AI Generated School"
+Basketball team from "AI Generated School Premier Basketball"
 
 COLOR SCHEME
 #2191FB Dodger Blue
@@ -9,3 +9,5 @@ COLOR SCHEME
 
 #BA274A Rose red
 #841C26 Burgundy
+
+350x350 is too big try halving

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.seperater{
+    opacity: 0;
+}
+/*designing the top part*/
+nav{
+    width:1200px;
+    margin:0 auto;
+    background-color: red;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+nav ul li{
+    display: inline; /* forces all the li elements to go in the line */
+    float: left;
+}
+nav ul li p{
+    clear:both;
+    font-size: 60px;
+}
+/* functional nav bar */
+nav ul li a{
+    padding:14px 16px;
+    display:block; /* forces the text to go in a block */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.active {
+    background-color: #045caf;
+}
