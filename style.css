@@ -8,6 +8,9 @@
     --Color4: #dd5575;
     --Color5: #841C26;
     --Debug1: #927493;
+    --Debug2: #2bff00;
+    --Debug3: #fffb00;
+    --Debug4: #00eeff;
 }
 .ClearBoth{
     clear:both;
@@ -72,4 +75,87 @@ nav ul li a:hover{
     background-color: var(--Debug1);
     width: 75%;
     margin: 0 auto;
+}
+
+/* index\html */
+#introduction{
+    width:90%;
+    margin:0 auto;
+    background-color: var(--Color3);
+}
+#introduction img{
+    
+}
+
+/*image gallery */
+#coach{
+    width:80%;
+    margin:0px auto;
+    box-shadow: .75em .75em 1em; /* creates a drop shadow */
+    height:325px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+.AddCaption{
+    width:40%;
+    float:left;
+}
+.AddCaption img{
+    margin:15px 15px;
+    width:80%;
+    height:80%;
+    margin-bottom:0px;
+}
+.AddCaption h3{
+    margin:15px 15px;
+    margin-top:5px;
+    float:left;
+    text-align: center;
+    font-size:25px;
+}
+#coach p{
+    float:left;
+    width:60%;
+}
+
+#Point-Guards{
+    width:80%;
+    margin:0px auto;
+    margin-bottom: 20px;
+    background-color: var(--Debug2);
+}
+#Point-Guards img{
+    width:45%;
+    margin:2% 2%;
+}
+#Shoot-guards{
+    width:80%;
+    margin:0px auto;
+    margin-bottom: 20px;
+    background-color: var(--Debug2);
+}
+#Shoot-guards img{
+    width: 33%;
+    margin: 1% 1%;
+}
+#Centers{
+    width:80%;
+    margin:0px auto;
+    margin-bottom: 20px;
+    background-color: var(--Debug2);
+}
+#Centers img{
+    width:25%;
+    margin:0.5% 0.5%;
+}
+#Forwards{
+    width:80%;
+    margin:0px auto;
+    margin-bottom: 20px;
+    background-color: var(--Debug2);
+}
+#Forwards img{
+    width:20%;
+    margin:0;
 }
