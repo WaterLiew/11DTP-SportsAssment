@@ -36,6 +36,19 @@ nav ul li{
     width:80%;
     margin: 0 auto;
 }
+.button{
+    padding:14px 16px;
+    width:auto;
+    float:left;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: var(--Color2);
+    color: var(--Color4);
+}
+.button:hover{
+    background-color: var(--Color1);
+}
 /* cosmetic nav bar */
 .ImageLogo{
     float:left;
@@ -54,6 +67,9 @@ nav ul li{
     padding: 0;
 }
 /* functional nav bar */
+nav ul{
+    margin-top: 15%;
+}
 nav ul li a{
     padding:14px 16px;
     display:block; /* forces the text to go in a block */
@@ -76,38 +92,48 @@ nav ul li a:hover{
     width: 75%;
     margin: 0 auto;
 }
+/* index\html */
 #introduction{
-
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+#introduction img{
+    float:left;
+    width: 15%;
+    margin:15px 15px;
+}
+#introduction p{
+    padding-top:15px;
+    width: 80%;
 }
 #description{
-
+    margin:0;
+    padding:0;
+    float: left;
+    clear: right;
+    width:50%;
 }
 #Achievements{
 
 }
 #Achievements table{
-    
-}
-
-/* index\html */
-#introduction{
-    width:90%;
     margin:0 auto;
-    background-color: var(--Color3);
-}
-#introduction img{
-    
+    width:40%;
+    text-align: center;
 }
 
 /*image gallery */
 #coach{
     width:80%;
+    height:420px;
     margin:0px auto;
     box-shadow: .75em .75em 1em; /* creates a drop shadow */
-    height:325px;
     margin-bottom: 20px;
     padding-top: 20px;
-
 }
 .AddCaption{
     width:40%;
@@ -115,9 +141,10 @@ nav ul li a:hover{
 }
 .AddCaption img{
     margin:15px 15px;
+    margin-top: 0;
     width:80%;
-    height:80%;
     margin-bottom:0px;
+    margin-right:-20px;
 }
 .AddCaption h3{
     margin:15px 15px;
@@ -129,6 +156,7 @@ nav ul li a:hover{
 #coach p{
     float:left;
     width:60%;
+    margin-left:-30px;
 }
 
 #Point-Guards{
@@ -136,38 +164,46 @@ nav ul li a:hover{
     margin:0px auto;
     margin-bottom: 20px;
     background-color: var(--Debug2);
+    text-align: center;
 }
 #Point-Guards img{
     width:45%;
     margin:2% 2%;
+}
+#Point-Guards a:hover{
+    box-shadow:.75em .75em 1em;
+    width:200%
 }
 #Shoot-guards{
     width:80%;
     margin:0px auto;
     margin-bottom: 20px;
     background-color: var(--Debug2);
+    text-align: center;
 }
 #Shoot-guards img{
-    width: 33%;
-    margin: 1% 1%;
+    width: 30%;
+    margin:1%;
 }
 #Centers{
     width:80%;
     margin:0px auto;
     margin-bottom: 20px;
     background-color: var(--Debug2);
+    text-align: center;
 }
 #Centers img{
-    width:25%;
-    margin:0.5% 0.5%;
+    width:23%;
+    padding:1%;
 }
 #Forwards{
     width:80%;
     margin:0px auto;
     margin-bottom: 20px;
     background-color: var(--Debug2);
+    text-align: center;
 }
 #Forwards img{
-    width:20%;
-    margin:0;
+    width:18%;
+    padding:1%;
 }
