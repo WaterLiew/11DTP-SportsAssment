@@ -38,8 +38,8 @@ nav ul li{
 }
 .button{
     padding:14px 16px;
-    width:auto;
-    float:left;
+    width:220px;
+    margin:0 auto;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -129,7 +129,7 @@ nav ul li a:hover{
 /*image gallery */
 #coach{
     width:80%;
-    height:420px;
+    height:330px;
     margin:0px auto;
     box-shadow: .75em .75em 1em; /* creates a drop shadow */
     margin-bottom: 20px;
@@ -158,21 +158,36 @@ nav ul li a:hover{
     width:60%;
     margin-left:-30px;
 }
+.caption{
+    clear:both;
+}
+.noTitleMarginBottom h2{
+    margin-bottom: 0px;
 
+}
 #Point-Guards{
-    width:80%;
     margin:0px auto;
     margin-bottom: 20px;
     background-color: var(--Debug2);
     text-align: center;
 }
 #Point-Guards img{
-    width:45%;
-    margin:2% 2%;
+    width:96%;
+    padding:2% 2%;
+    margin: 0;
+    clear:both;
 }
-#Point-Guards a:hover{
-    box-shadow:.75em .75em 1em;
-    width:200%
+.wrap{
+    width:46%;
+    margin:2%;
+    padding:0;
+    float:left;
+}
+.dropdown{
+    background-color: var(--Debug2);
+}
+button:hover{
+    background-color: var(--Debug1);
 }
 #Shoot-guards{
     width:80%;
