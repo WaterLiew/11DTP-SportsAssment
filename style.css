@@ -171,23 +171,17 @@ nav ul li a:hover{
     background-color: var(--Debug2);
     text-align: center;
 }
+#Point-Guards div{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left;
+}
 #Point-Guards img{
     width:96%;
     padding:2% 2%;
     margin: 0;
     clear:both;
-}
-.wrap{
-    width:46%;
-    margin:2%;
-    padding:0;
-    float:left;
-}
-.dropdown{
-    background-color: var(--Debug2);
-}
-button:hover{
-    background-color: var(--Debug1);
 }
 #Shoot-guards{
     width:80%;
