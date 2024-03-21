@@ -83,7 +83,7 @@ nav ul li a:hover{
 }
 /* index\html */
 #introduction{
-    width: 50%;
+    width: 100%;
     float: left;
     text-align: center;
     font-size: 20px;
@@ -92,12 +92,13 @@ nav ul li a:hover{
 }
 #introduction img{
     float:left;
-    width: 50%;
+    width: 25%;
     margin:15px 15px;
+    border:2px solid var(--Color4);
 }
 #introduction p{
     padding-top:15px;
-    width: 40%;
+    width: 70%;
     float:left;
 }
 .button{
@@ -106,29 +107,43 @@ nav ul li a:hover{
     padding:14px 16px;
     margin:0;
     text-decoration: none;
+    float:left;
+    margin:0 15px;
 }
 .button:hover{
     background-color: var(--Color2 );
 }
 
-#description{
-    width:48%;
-    margin:1%;
-    padding:0;
-    float:left;
-}
 #Achievements{
     clear:both;
     text-align:center;
-}
-#Achievements h2{
-    margin-top:100px;
+    margin:0;
+    padding:0;
 }
 #Achievements table{
-    margin:0 auto;
     width:40%;
-    text-align: center;
+    text-align: left;
+    float:center;
+    margin:0 5%;
+    padding:0;
 }
+#Achievements th, #Achievements td{
+    width:50px;
+    padding: 7px 8px;
+    border:1px solid var(--Color5);
+    background-color: var(--Color4);
+}
+#Achievements th{
+    color:rgb(192, 192, 192);
+    background-color:var(--Color5);
+}
+#TrophyHall{
+    width:40%;
+    margin:0 5%;
+    padding:0;
+    float:left;
+}
+
 
 /*image gallery */
 #coach{
@@ -174,6 +189,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
     background-color: var(--Debug2);
     text-align: center;
+    clear:both;
 }
 #Point-Guards div{
     width:50%;

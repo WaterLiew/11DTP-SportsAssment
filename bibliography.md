@@ -11,5 +11,5 @@ Silhouette,basketball,player,jump,score - free image from needpix.com. (n.d.). W
 Basketball Game Net Hoop - Vector Image. (n.d.). Www.wannapik.com. Retrieved March 21, 2024, from https://www.wannapik.com/vectors/14432
 
 -LAYOUT-
-https://www.chiefs.co.nz/chiefs-squad-player/krystal-murray
-https://www.allblacks.com/playerprofiles/anton-lienert-brown/
+https://www.chiefs.co.nz/chiefs-squad-player/krystal-murray @ 22/03
+https://www.allblacks.com/playerprofiles/anton-lienert-brown/ @ 22/03
