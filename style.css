@@ -11,6 +11,7 @@
     --Debug2: #2bff00;
     --Debug3: #fffb00;
     --Debug4: #00eeff;
+    --TextColor1: #ffffff;
 }
 .ClearBoth{
     clear:both;
@@ -36,19 +37,7 @@ nav ul li{
     width:80%;
     margin: 0 auto;
 }
-.button{
-    padding:14px 16px;
-    width:220px;
-    margin:0 auto;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    background-color: var(--Color2);
-    color: var(--Color4);
-}
-.button:hover{
-    background-color: var(--Color1);
-}
+
 /* cosmetic nav bar */
 .ImageLogo{
     float:left;
@@ -103,22 +92,37 @@ nav ul li a:hover{
 }
 #introduction img{
     float:left;
-    width: 15%;
+    width: 50%;
     margin:15px 15px;
 }
 #introduction p{
     padding-top:15px;
-    width: 80%;
+    width: 40%;
+    float:left;
 }
-#description{
+.button{
+    background-color: var(--Color1);
+    color:var(--TextColor1);
+    padding:14px 16px;
     margin:0;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: var(--Color2 );
+}
+
+#description{
+    width:48%;
+    margin:1%;
     padding:0;
-    float: left;
-    clear: right;
-    width:50%;
+    float:left;
 }
 #Achievements{
-
+    clear:both;
+    text-align:center;
+}
+#Achievements h2{
+    margin-top:100px;
 }
 #Achievements table{
     margin:0 auto;
