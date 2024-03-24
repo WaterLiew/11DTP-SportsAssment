@@ -10,15 +10,21 @@
     --Debug1: #927493;
     --Debug2: #2bff00;
     --Debug3: #fffb00;
-    --Debug4: #00eeff;
+    --Debug4: #ea00ff;
     --TextColor1: #ffffff;
 }
 .ClearBoth{
     clear:both;
 }
+#Title{
+    width:90%;
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+}
 /*designing the top part*/
 nav{
-    width:100%;
+    width:auto;
     background-image: url(images/Background\ image.png);
     background-size: 100%;
 }
@@ -69,15 +75,14 @@ nav ul li a{
 nav ul li a:hover{
     color:var(--Color4);
 }
-.active {
-    background-color: #045caf;
+.active{
+    background-color: var(--Color1);
 }
 
 #Index{
     background-color: var(--Color3);
 }
 #container{
-    background-color: var(--Debug1);
     width: 75%;
     margin: 0 auto;
 }
@@ -89,6 +94,8 @@ nav ul li a:hover{
     font-size: 20px;
     margin:0;
     padding:0;
+    clear:both;
+    margin-bottom:1%;
 }
 #introduction img{
     float:left;
@@ -97,7 +104,7 @@ nav ul li a:hover{
     border:2px solid var(--Color4);
 }
 #introduction p{
-    padding-top:15px;
+    padding-top:0;
     width: 70%;
     float:left;
 }
@@ -114,23 +121,38 @@ nav ul li a:hover{
     background-color: var(--Color2 );
 }
 
+#Opcoming-games{
+    width:45%;
+    text-align: left;
+    float:left;
+    margin:0 2.5%;
+    padding:0;
+    margin-top: 30px;
+}
 #Achievements{
+    width:100%;
     clear:both;
     text-align:center;
     margin:0;
     padding:0;
 }
-#Achievements table{
-    width:40%;
-    text-align: left;
-    float:center;
-    margin:0 5%;
+#Achievements h2{
+    width:50%;
+    margin:0;
     padding:0;
+    float:left;
 }
+#Achievements table{
+    width:100%;
+    float:center;
+    padding:0;
+    float:left;
+}   
 #Achievements th, #Achievements td{
     width:50px;
     padding: 7px 8px;
     border:1px solid var(--Color5);
+    border-radius: 5px;
     background-color: var(--Color4);
 }
 #Achievements th{
@@ -138,21 +160,39 @@ nav ul li a:hover{
     background-color:var(--Color5);
 }
 #TrophyHall{
-    width:40%;
-    margin:0 5%;
+    width:45%;
+    margin:0 2.5%;
     padding:0;
     float:left;
+    text-align: center;
 }
-
+#TrophyHall div{
+    width:33%;
+    margin:0;
+    padding:0;
+    float:left;
+    border:3px solid #7a7a7a;
+}
+#TrophyHall div img{
+    width:70%;
+    margin:0;
+    padding:0;
+    clear:both
+}
+#TrophyHall div, #TrophyHall h2, #TrophyHall div h4{
+    margin:0;
+    padding:0;
+    padding-top: 15px;
+} 
 
 /*image gallery */
 #coach{
     width:80%;
     height:330px;
     margin:0px auto;
-    box-shadow: .75em .75em 1em; /* creates a drop shadow */
     margin-bottom: 20px;
     padding-top: 20px;
+    background-color: var(--Color2);
 }
 .AddCaption{
     width:40%;
@@ -166,16 +206,31 @@ nav ul li a:hover{
     margin-right:-20px;
 }
 .AddCaption h3{
-    margin:15px 15px;
     margin-top:5px;
     float:left;
     text-align: center;
     font-size:25px;
+    width:80%;
+}
+#coach table{
+    float:left;
+    width:60%;
+    margin: 15px 0;
+    margin-bottom: 15px;
+    margin-left:-30px;
 }
 #coach p{
     float:left;
     width:60%;
     margin-left:-30px;
+}
+#coach table tr{
+    width:25%;
+    font-size:20px;
+}
+#coach table tr td{
+    width:25%;
+    border: 2px solid var(--Color5);
 }
 .caption{
     clear:both;
@@ -184,55 +239,37 @@ nav ul li a:hover{
     margin-bottom: 0px;
 
 }
-#Point-Guards{
-    margin:0px auto;
-    margin-bottom: 20px;
-    background-color: var(--Debug2);
-    text-align: center;
-    clear:both;
-}
-#Point-Guards div{
-    width:50%;
+#Players{
+    width:100%;
     margin:0;
-    padding:0;
-    float:left;
+    padding:25px 0px;
+    padding-bottom:150px;
+    background-color: var(--Color4);
 }
-#Point-Guards img{
-    width:96%;
-    padding:2% 2%;
-    margin: 0;
+#Players #sas{
+    width:28%;
+    margin:0;
+    text-align: center;
+    float: left;
+    border-top: 2px solid #000;
+}
+#Players #sas a{
+    text-decoration: none;
+    color:#000; 
+}
+#Players div img{
+    width:80%;
     clear:both;
+    border: 2px solid var(--Color5);
+    border-radius: 5px;
 }
-#Shoot-guards{
-    width:80%;
-    margin:0px auto;
-    margin-bottom: 20px;
-    background-color: var(--Debug2);
-    text-align: center;
+#Players div h3{
+    margin-top:0px;
 }
-#Shoot-guards img{
-    width: 30%;
-    margin:1%;
-}
-#Centers{
-    width:80%;
-    margin:0px auto;
-    margin-bottom: 20px;
-    background-color: var(--Debug2);
-    text-align: center;
-}
-#Centers img{
-    width:23%;
-    padding:1%;
-}
-#Forwards{
-    width:80%;
-    margin:0px auto;
-    margin-bottom: 20px;
-    background-color: var(--Debug2);
-    text-align: center;
-}
-#Forwards img{
-    width:18%;
-    padding:1%;
+#PlayerDivider{
+    width:96%;
+    clear:both;
+    padding:0;
+    margin:0;
+    margin-left:15px;
 }
