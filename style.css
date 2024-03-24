@@ -243,7 +243,7 @@ nav ul li a:hover{
     width:100%;
     margin:0;
     padding:25px 0px;
-    padding-bottom:150px;
+    padding-bottom:230px;
     background-color: var(--Color4);
 }
 #Players #sas{
@@ -272,4 +272,35 @@ nav ul li a:hover{
     padding:0;
     margin:0;
     margin-left:15px;
+}
+
+/* player bios */
+#BiographyContainer{
+    width:80%;
+    clear:both;
+    padding:0;
+    margin:0 auto;
+}
+#ImageWCaption{
+    width:40%;
+    color:var(--Color5);
+    font-size: 36px;
+    float:left;
+}
+#ImageWCaption img{
+    width:100%;
+    margin-top:-50px;
+}
+#KeyStats{
+    width:60%;
+    padding:0;
+    margin:0;
+    float:left;
+}
+#KSTitle{
+    width:50%;
+    padding:0;
+    margin:0;
+    float:left;
+    font-size: 25px;
 }
