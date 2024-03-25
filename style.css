@@ -99,13 +99,14 @@ nav ul li a:hover{
 }
 #introduction img{
     float:left;
-    width: 25%;
+    /*width: 25%;*/
     margin:15px 15px;
 }
 #introduction p{
     padding-top:0;
     width: 70%;
     float:left;
+    margin:25px 0;
 }
 .button{
     background-color: var(--Color1);
@@ -118,6 +119,72 @@ nav ul li a:hover{
 }
 .button:hover{
     background-color: var(--Color2 );
+}
+#coach{
+    width:100%;
+    margin:0;
+    background-color: var(--Color2);
+    border: 2px solid #fff;
+    float:left;
+}
+.AddCaption{
+    width:40%;
+    float:left;
+    margin:0;
+    padding:0;
+    margin-top: -20px;
+}
+.AddCaption img{
+    margin: 0;
+    margin-top:30px;
+    padding:15px 15px;
+    width: 80%;
+    text-align: center;
+}
+.AddCaption h3{
+    margin-top:-5px;
+    float:left;
+    text-align: center;
+    font-size:25px;
+    width:80%;
+}
+#coach table{
+    float:left;
+    width:60%;
+    margin: 15px 0;
+    margin-bottom: 15px;
+    margin-left:-30px;
+}
+#coach p{
+    float:left;
+    width:60%;
+    margin-left:-30px;
+}
+#coach h1{
+    width: 100%;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+#coach table tr{
+    width:25%;
+    font-size:20px;
+}
+#coach table tr:nth-child(even){
+    background-color: var(--Color4);
+}
+#coach table tr td{
+    width:33%;
+    padding:7px 8px;
+    margin:0;
+    text-align: center;
+}
+#coach table tr th{
+    width:25%;
+    padding:7px 8px;
+    margin:0;
+    color:var(--Color2);
+    background-color: var(--Color5);
 }
 
 #Opcoming-games{
@@ -185,53 +252,6 @@ nav ul li a:hover{
 } 
 
 /*image gallery */
-#coach{
-    width:60%;
-    margin:0;
-    background-color: var(--Color2);
-    border: 2px solid #fff;
-    float:left;
-    margin-top:35px;
-}
-.AddCaption{
-    width:40%;
-    float:left;
-    margin:0;
-    padding:0;
-    margin-top: -20px;
-}
-.AddCaption img{
-    margin: 0;
-    width:100%;
-    text-align: center;
-}
-.AddCaption h3{
-    margin-top:-5px;
-    float:left;
-    text-align: center;
-    font-size:25px;
-    width:80%;
-}
-#coach table{
-    float:left;
-    width:60%;
-    margin: 15px 0;
-    margin-bottom: 15px;
-    margin-left:-30px;
-}
-#coach p{
-    float:left;
-    width:60%;
-    margin-left:-30px;
-}
-#coach table tr{
-    width:25%;
-    font-size:20px;
-}
-#coach table tr td{
-    width:25%;
-    border: 2px solid var(--Color5);
-}
 .caption{
     clear:both;
 }
@@ -275,20 +295,27 @@ nav ul li a:hover{
 
 /* player bios */
 #BiographyContainer{
-    width:80%;
+    width:auto;
     clear:both;
     padding:0;
     margin:0 auto;
+    background-image: url(images/Basketball\ background.jpg);
+    background-size: 100%;
 }
 #ImageWCaption{
     width:40%;
     color:var(--Color5);
     font-size: 36px;
     float:left;
+    border:10px solid var(--Color2);
 }
 #ImageWCaption img{
     width:100%;
     margin-top:-50px;
+    margin-bottom:-10px;
+}
+#ImageWCaption h1{
+    margin-top:0px;
 }
 #KeyStats{
     width:60%;
@@ -297,9 +324,28 @@ nav ul li a:hover{
     float:left;
 }
 #KSTitle{
-    width:50%;
+    width: 45%;
     padding:0;
     margin:0;
     float:left;
-    font-size: 25px;
+    font-size: 30px;
+    padding-top:50px;
+    margin-left:5%;
+}
+#Tabble{
+    width:45%;
+    padding:0;
+    margin:0 2.5%;
+    float:left;
+    font-size: 30px;
+    padding-top:50px;
+    list-style-type: none;
+}
+#Tabble h6{
+    width:33%;
+    float:left;
+    border:2px solid var(--Debug1);
+    text-align: center;
+    padding:0;
+    margin:0;
 }
