@@ -101,7 +101,6 @@ nav ul li a:hover{
     float:left;
     width: 25%;
     margin:15px 15px;
-    border:2px solid var(--Color4);
 }
 #introduction p{
     padding-top:0;
@@ -187,26 +186,27 @@ nav ul li a:hover{
 
 /*image gallery */
 #coach{
-    width:80%;
-    height:330px;
-    margin:0px auto;
-    margin-bottom: 20px;
-    padding-top: 20px;
+    width:60%;
+    margin:0;
     background-color: var(--Color2);
+    border: 2px solid #fff;
+    float:left;
+    margin-top:35px;
 }
 .AddCaption{
     width:40%;
     float:left;
+    margin:0;
+    padding:0;
+    margin-top: -20px;
 }
 .AddCaption img{
-    margin:15px 15px;
-    margin-top: 0;
-    width:80%;
-    margin-bottom:0px;
-    margin-right:-20px;
+    margin: 0;
+    width:100%;
+    text-align: center;
 }
 .AddCaption h3{
-    margin-top:5px;
+    margin-top:-5px;
     float:left;
     text-align: center;
     font-size:25px;
@@ -241,10 +241,9 @@ nav ul li a:hover{
 }
 #Players{
     width:100%;
-    margin:0;
-    padding:25px 0px;
-    padding-bottom:230px;
+    margin:100px 0;
     background-color: var(--Color4);
+    margin-bottom:0;
 }
 #Players #sas{
     width:28%;
