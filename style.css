@@ -44,6 +44,7 @@ nav ul li{
     margin: 0 auto;
 }
 
+
 /* cosmetic nav bar */
 .ImageLogo{
     float:left;
@@ -212,6 +213,13 @@ nav ul li a:hover{
     padding:0;
     float:left;
 }
+.IdkWhy{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    font-size:1.5em;
+}
 #Achievements table{
     width:100%;
     float:center;
@@ -265,9 +273,9 @@ nav ul li a:hover{
 }
 #Players{
     width:100%;
-    margin:100px 0;
+    margin-top:100px;
     background-color: var(--Color4);
-    padding-bottom:25%;
+    padding-bottom:30%;
 }
 #Players #sas{
     width:28%;
@@ -297,7 +305,16 @@ nav ul li a:hover{
     margin-left:15px;
 }
 
-/* player bios --CONSIDERING DELETION */
+/* player bios*/
+#LongBlackLine{
+    width:150%;
+    height:3px;
+    margin-left:-25%;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:0;
+    background-color: #000;
+}
 .BiographyContainer{
     width:100%;
     clear:both;
@@ -337,6 +354,18 @@ nav ul li a:hover{
     padding-top:50px;
     margin-left:5%;
 }
+.BorderLeft{
+    border-left:2px solid var(--Color1);
+}
+.BorderRight{
+    border-right:2px solid var(--Color1);
+}
+.BorderTop{
+    border-Top:2px solid var(--Color1);
+}
+.BorderBottom{
+    border-bottom:2px solid var(--Color1);
+}
 #Link2Top{
     background-color: var(--Color1);
     width:10%;
@@ -351,7 +380,7 @@ nav ul li a:hover{
 #Link2Top a{
     text-decoration: none;
     Color:var(--TextColor1);
-    font-size: 20px;
+    font-size: 110%;
 }
 #Tabble{
     width:47.5%;
@@ -359,11 +388,11 @@ nav ul li a:hover{
     margin-left:2.5%;
     float:left;
     font-size: 30px;
-    padding-top:50px;
+    padding-top:30px;
     list-style-type: none;
 }
 #Tabble tr{
-    width:100%;
+    width: 100%;
     float:left;
     text-align: center;
     padding:0;
@@ -373,6 +402,11 @@ nav ul li a:hover{
     width:33%;
     float:left;
     border:2px solid var(--Debug1);
+    height:fit-content;
+}
+#Tabble tr td h6{
+    margin:0;
+    padding:0;
 }
 .BiographyContainer p{
     width: 57.5%;

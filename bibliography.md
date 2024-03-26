@@ -10,11 +10,16 @@ Silhouette,basketball,player,jump,score - free image from needpix.com. (n.d.). W
 
 Basketball Game Net Hoop - Vector Image. (n.d.). Www.wannapik.com. Retrieved March 21, 2024, from https://www.wannapik.com/vectors/14432
 
-https://github.com/WaterLiew/HTML-intro/tree/master/images/AirMewZealand pulled at 26/3
+WaterLiew/HTML-intro. (n.d.). www.github.com. Retrieved March 26/3, from https://github.com/WaterLiew/HTML-intro/tree/master/images/AirMewZealand pulled at 26/3
 
 -LAYOUT-
-https://www.chiefs.co.nz/chiefs-squad-player/krystal-murray @ 22/03
-https://www.allblacks.com/playerprofiles/anton-lienert-brown/ @ 22/03
-https://members.thecoachessite.com/view/profile/index.php?channelName=_63e416665a6be&tab=profile - coach, pulled 24/3
-https://www.breakthroughbasketball.com/stats/definitions.html - pulled at 26/3
-https://www.breakthroughbasketball.com/stats/9_stats_basketball_coach_should_track.html - pulled at 26/3
+Krystal Murray | Chiefs Manawa. (n.d.). Chiefs. Retrieved March 22, 2024, from https://www.chiefs.co.nz/chiefs-squad-player/krystal-murray
+
+
+Anton Lienert-Brown. (2023, October 30). Allblacks.com. Retrieved March 22, 2024, from https://www.allblacks.com/playerprofiles/anton-lienert-brown/
+
+Basketball Statistics Definitions. (n.d.). Www.breakthroughbasketball.com. Retrieved March 26, 2024, from https://www.breakthroughbasketball.com/stats/definitions.html
+
+9 Stats That Every Serious Basketball Coach Should Track. (n.d.). Www.breakthroughbasketball.com. Retrieved March 26, 2024, from https://www.breakthroughbasketball.com/stats/9_stats_basketball_coach_should_track.html
+
+https://www.hudl.com/blog/the-value-point-system-is-the-all-in-one-stat-that-keeps-growing
