@@ -193,7 +193,11 @@ nav ul li a:hover{
     float:left;
     margin:0 2.5%;
     padding:0;
-    margin-top: 30px;
+}#Opcoming-games img{
+    width:15%;
+    float:left;
+    margin:2.5% 2.5%;
+    padding:0;
 }
 #Achievements{
     width:100%;
@@ -263,7 +267,7 @@ nav ul li a:hover{
     width:100%;
     margin:100px 0;
     background-color: var(--Color4);
-    margin-bottom:0;
+    padding-bottom:25%;
 }
 #Players #sas{
     width:28%;
@@ -294,8 +298,8 @@ nav ul li a:hover{
 }
 
 /* player bios --CONSIDERING DELETION */
-#BiographyContainer{
-    width:auto;
+.BiographyContainer{
+    width:100%;
     clear:both;
     padding:0;
     margin:0 auto;
@@ -314,8 +318,9 @@ nav ul li a:hover{
     margin-top:-50px;
     margin-bottom:-10px;
 }
-#ImageWCaption h1{
+#ImageWCaption h2{
     margin-top:0px;
+    margin-bottom:55px;
 }
 #KeyStats{
     width:60%;
@@ -324,7 +329,7 @@ nav ul li a:hover{
     float:left;
 }
 #KSTitle{
-    width: 45%;
+    width: 40%;
     padding:0;
     margin:0;
     float:left;
@@ -332,20 +337,48 @@ nav ul li a:hover{
     padding-top:50px;
     margin-left:5%;
 }
-#Tabble{
-    width:45%;
+#Link2Top{
+    background-color: var(--Color1);
+    width:10%;
+    height:65px;
+    float:left;
+    margin:0;
     padding:0;
-    margin:0 2.5%;
+    padding-top:10px;
+    margin-top:40px;
+    text-align: center;
+}
+#Link2Top a{
+    text-decoration: none;
+    Color:var(--TextColor1);
+    font-size: 20px;
+}
+#Tabble{
+    width:47.5%;
+    padding:0;
+    margin-left:2.5%;
     float:left;
     font-size: 30px;
     padding-top:50px;
     list-style-type: none;
 }
-#Tabble h6{
-    width:33%;
+#Tabble tr{
+    width:100%;
     float:left;
-    border:2px solid var(--Debug1);
     text-align: center;
     padding:0;
     margin:0;
+}
+#Tabble tr td{
+    width:33%;
+    float:left;
+    border:2px solid var(--Debug1);
+}
+.BiographyContainer p{
+    width: 57.5%;
+    float:left;
+    margin:0;
+    padding:0;
+    margin-left:2.5%;
+    margin-top:2.5%;
 }
