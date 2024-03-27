@@ -294,6 +294,11 @@ nav ul li a:hover{
 #Players #sas a{
     text-decoration: none;
     color:#000; 
+}#Players #sas a:hover{
+    color:var(--Color5);
+}
+#Players #sas img:hover{
+   border:10px solid var(--Color5);
 }
 #Players div img{
     width:80%;
@@ -313,7 +318,7 @@ nav ul li a:hover{
 }
 
 /* player bios*/
-#LongBlackLine{
+.LongBlackLine{
     width:150%;
     height:3px;
     margin-left:-25%;
@@ -321,6 +326,7 @@ nav ul li a:hover{
     margin-bottom:30px;
     padding:0;
     background-color: #000;
+    clear:both;
 }
 .BiographyContainer{
     width:100%;
@@ -335,6 +341,9 @@ nav ul li a:hover{
     background-color: var(--Color1);
     float:left;
     text-decoration: none;
+}
+#GoToTop:hover{
+    background-color: var(--Color3);
 }
 #GoToTopButton{
     text-align: center;
@@ -406,8 +415,8 @@ nav ul li a:hover{
 #Tabble tr td{
     width:25%;
     float:left;
-    border:2px solid var(--Debug1);
     height:fit-content;
+    font-size: 25px;
 }
 #Tabble tr td h6{
     margin:0;
@@ -415,12 +424,13 @@ nav ul li a:hover{
 }
 .BiographyContainer p{
     width: 57.5%;
+    height:100vw;
     float:left;
     margin:0;
     padding:0;
     margin-left:2.5%;
     margin-top:2.5%;
-    font-size: 20px;
+    font-size: 90%;
     color:var(--Color1);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
