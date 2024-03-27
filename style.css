@@ -322,7 +322,7 @@ nav ul li a:hover{
     width:140%;
     height:3px;
     margin-left:-20%;
-    margin-top:0px;
+    margin-top:12vw;
     margin-bottom:30px;
     padding:0;
     background-color: #000;
@@ -333,15 +333,16 @@ nav ul li a:hover{
     width:100%;
     clear:both;
     padding:0;
-    margin:0 auto;
+    margin: auto;
 }
 #GoToTop{
-    width:10%;
-    margin:0;
+    position:fixed;
+    width: 7.5%;
+    margin:0 1.25%;
     padding:0;
     background-color: var(--Color1);
-    float:left;
     text-decoration: none;
+    right:2.5%;
 }
 #GoToTop:hover{
     background-color: var(--Color3);
@@ -426,12 +427,13 @@ nav ul li a:hover{
 }
 .BiographyContainer p{
     width: 57.5%;
-    height:100vw;
+    height:7vw;
     float:left;
     margin:0;
     padding:0;
     margin-left:2.5%;
     margin-top:2.5%;
+    margin-bottom: 2.5%;
     font-size: 90%;
     color:var(--Color1);
     font-family:Georgia, 'Times New Roman', Times, serif;
