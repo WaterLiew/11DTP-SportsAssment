@@ -327,6 +327,7 @@ nav ul li a:hover{
     padding:0;
     background-color: #000;
     clear:both;
+    float:left;
 }
 .BiographyContainer{
     width:100%;
@@ -395,6 +396,9 @@ nav ul li a:hover{
 }
 .Lines2{
     padding-top:16.5px;
+}
+.NoMarginTop{
+    margin-top: 0;
 }
 #Tabble{
     width:50%;
