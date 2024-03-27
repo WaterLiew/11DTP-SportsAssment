@@ -23,3 +23,5 @@ Basketball Statistics Definitions. (n.d.). Www.breakthroughbasketball.com. Retri
 9 Stats That Every Serious Basketball Coach Should Track. (n.d.). Www.breakthroughbasketball.com. Retrieved March 26, 2024, from https://www.breakthroughbasketball.com/stats/9_stats_basketball_coach_should_track.html
 
 https://www.hudl.com/blog/the-value-point-system-is-the-all-in-one-stat-that-keeps-growing
+
+https://stackoverflow.com/questions/11399537/how-do-you-make-a-div-follow-as-you-scroll - pulled 27/03

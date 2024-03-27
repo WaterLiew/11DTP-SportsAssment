@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 :root{
     --Color1: #2191FB;
@@ -12,6 +13,7 @@
     --Debug3: #fffb00;
     --Debug4: #ea00ff;
     --TextColor1: #ffffff;
+    --TextColor2: #EEAABA;
 }
 .ClearBoth{
     clear:both;
@@ -100,7 +102,6 @@ nav ul li a:hover{
 }
 #introduction img{
     float:left;
-    /*width: 25%;*/
     margin:15px 15px;
 }
 #introduction p{
@@ -160,6 +161,8 @@ nav ul li a:hover{
     float:left;
     width:60%;
     margin-left:-30px;
+    font-size: 17px;
+    color:var(--Color5);
 }
 #coach h1{
     width: 100%;
@@ -219,6 +222,10 @@ nav ul li a:hover{
     padding:0;
     float:left;
     font-size:1.5em;
+}
+#Twitter{
+    border: 5px solid #000;
+    border-radius: 15px;
 }
 #Achievements table{
     width:100%;
@@ -310,7 +317,7 @@ nav ul li a:hover{
     width:150%;
     height:3px;
     margin-left:-25%;
-    margin-top:30px;
+    margin-top:0px;
     margin-bottom:30px;
     padding:0;
     background-color: #000;
@@ -320,8 +327,19 @@ nav ul li a:hover{
     clear:both;
     padding:0;
     margin:0 auto;
-    background-image: url(images/Basketball\ background.jpg);
-    background-size: 100%;
+}
+#GoToTop{
+    width:10%;
+    margin:0;
+    padding:0;
+    background-color: var(--Color1);
+    float:left;
+    text-decoration: none;
+}
+#GoToTopButton{
+    text-align: center;
+    margin:7.5px 7.5px;
+    color:var(--TextColor1);
 }
 #ImageWCaption{
     width:40%;
@@ -329,6 +347,7 @@ nav ul li a:hover{
     font-size: 36px;
     float:left;
     border:10px solid var(--Color2);
+    border-radius: 15px;
 }
 #ImageWCaption img{
     width:100%;
@@ -351,7 +370,6 @@ nav ul li a:hover{
     margin:0;
     float:left;
     font-size: 30px;
-    padding-top:50px;
     margin-left:5%;
 }
 .BorderLeft{
@@ -366,26 +384,13 @@ nav ul li a:hover{
 .BorderBottom{
     border-bottom:2px solid var(--Color1);
 }
-#Link2Top{
-    background-color: var(--Color1);
-    width:10%;
-    height:65px;
-    float:left;
-    margin:0;
-    padding:0;
-    padding-top:10px;
-    margin-top:40px;
-    text-align: center;
-}
-#Link2Top a{
-    text-decoration: none;
-    Color:var(--TextColor1);
-    font-size: 110%;
+.Lines2{
+    padding-top:16.5px;
 }
 #Tabble{
-    width:47.5%;
+    width:50%;
     padding:0;
-    margin-left:2.5%;
+    margin-left:5%;
     float:left;
     font-size: 30px;
     padding-top:30px;
@@ -399,7 +404,7 @@ nav ul li a:hover{
     margin:0;
 }
 #Tabble tr td{
-    width:33%;
+    width:25%;
     float:left;
     border:2px solid var(--Debug1);
     height:fit-content;
@@ -415,4 +420,7 @@ nav ul li a:hover{
     padding:0;
     margin-left:2.5%;
     margin-top:2.5%;
+    font-size: 20px;
+    color:var(--Color1);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
