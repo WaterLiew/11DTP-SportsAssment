@@ -280,7 +280,7 @@ nav ul li a:hover{
 }
 #Players{
     width:100%;
-    margin-top:100px;
+    margin-top:0px;
     background-color: var(--Color4);
     padding-bottom:30%;
 }
@@ -319,9 +319,9 @@ nav ul li a:hover{
 
 /* player bios*/
 .LongBlackLine{
-    width:150%;
+    width:140%;
     height:3px;
-    margin-left:-25%;
+    margin-left:-20%;
     margin-top:0px;
     margin-bottom:30px;
     padding:0;
@@ -397,9 +397,7 @@ nav ul li a:hover{
 .Lines2{
     padding-top:16.5px;
 }
-.NoMarginTop{
-    margin-top: 0;
-}
+
 #Tabble{
     width:50%;
     padding:0;
