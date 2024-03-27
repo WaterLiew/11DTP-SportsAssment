@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth; /* makes scrolling SMOOTH */
 }
 :root{
     --Color1: #2191FB;
