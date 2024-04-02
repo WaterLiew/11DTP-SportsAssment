@@ -255,22 +255,22 @@ nav ul li a:hover{
     padding:0;
     float:left;
     text-align: center;
-    margin-top: -30px;
 }
 #TrophyHall div{
     width:33%;
     margin:0;
     padding:0;
-    height: 190px;
+    height: 22vh;
     float:left;
-    border:3px solid #7a7a7a;
 }
 #TrophyHall div img{
-    width:70%;
+    width:calc(70% + 1em);
     margin:0;
     padding:0;
     clear:both;
     margin-top: 15px;
+    border: 0.5em solid var(--Color4);
+    border-radius: 5px;
 }
 #TrophyHall div, #TrophyHall h2, #TrophyHall div h4{
     margin:0;
@@ -306,13 +306,11 @@ nav ul li a:hover{
     color: #000;
 }
 #Players #sas img:hover{
-   padding:8px;
-   color:var(--Color5);
+   /* box shadow to fake tint */
 }
 #Players div img{
     width:80%;
     clear:both;
-    border: 2px solid var(--Color5);
     border-radius: 5px;
     background-color: var(--Color5);
 }
@@ -362,8 +360,7 @@ nav ul li a:hover{
 }
 #GoToTopButton{
     text-align: center;
-    margin:7.5px 7.5px;
-    margin-top: 15px;
+    margin:auto auto;
     color:var(--Color5);
     font-size: 25px;
 }
@@ -386,6 +383,8 @@ nav ul li a:hover{
     width:100%;
     margin-top:-50px;
     margin-bottom:-10px;
+    border: 0.3em solid #fff;
+    border-radius: 5%;
 }
 #ImageWCaption h2{
     margin-top:0px;
@@ -455,7 +454,7 @@ nav ul li a:hover{
     margin:2.5% 0;
     padding:0;
     margin-left:2.5%;
-    font-size: 90%;
+    font-size: 1.25rem;
     color:var(--Color1);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
