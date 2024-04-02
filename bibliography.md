@@ -12,7 +12,9 @@ Basketball Game Net Hoop - Vector Image. (n.d.). Www.wannapik.com. Retrieved Mar
 
 WaterLiew/HTML-intro. (n.d.). www.github.com. Retrieved March 26/3, from https://github.com/WaterLiew/HTML-intro/tree/master/images/AirMewZealand pulled at 26/3
 
-https://en.wikipedia.org/wiki/File:Basketball_Clipart.svg - pulled 28/03
+Title: File:Basketball Clipart.svg
+URL: https://en.wikipedia.org/wiki/File:Basketball_Clipart.svg
+Access Date: March 28, 2024
 
 -LAYOUT-
 Krystal Murray | Chiefs Manawa. (n.d.). Chiefs. Retrieved March 22, 2024, from https://www.chiefs.co.nz/chiefs-squad-player/krystal-murray
@@ -24,8 +26,10 @@ Basketball Statistics Definitions. (n.d.). Www.breakthroughbasketball.com. Retri
 
 9 Stats That Every Serious Basketball Coach Should Track. (n.d.). Www.breakthroughbasketball.com. Retrieved March 26, 2024, from https://www.breakthroughbasketball.com/stats/9_stats_basketball_coach_should_track.html
 
-https://www.hudl.com/blog/the-value-point-system-is-the-all-in-one-stat-that-keeps-growing
+Title: How do you make a div follow as you scroll?
+URL: https://stackoverflow.com/questions/11399537/how-do-you-make-a-div-follow-as-you-scroll
+Access Date: March 27, 2024
 
-https://stackoverflow.com/questions/11399537/how-do-you-make-a-div-follow-as-you-scroll - pulled 27/03
-
-https://www.nzherald.co.nz/nz/basketball-new-zealand-awards-recognise-outstanding-achievement/2DRC2RPB2EHP3SO7OHL2434FTE/ - pulled 27/03
+Title: Basketball New Zealand Awards Recognise Outstanding Achievement
+URL: https://www.nzherald.co.nz/nz/basketball-new-zealand-awards-recognise-outstanding-achievement/2DRC2RPB2EHP3SO7OHL2434FTE/
+Access Date: March 27, 2024

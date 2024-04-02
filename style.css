@@ -52,13 +52,18 @@ nav ul li{
     float:left;
     margin: 0 0;
     width: 15%;
+    margin-top: 1rem;
 }
 .RightOfImage{
     float:left;
     width: 80%;
     text-align: center;
-    font-size:40px;
     height:75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:3em;
+    margin:0;
+    padding:0;
+    margin-left:35px;
 }
 .RightOfImage p{
     margin: 0;
@@ -76,6 +81,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
+    background-color: var(--Color1);
     color:var(--Color4);
 }
 .active{
@@ -154,15 +160,18 @@ nav ul li a:hover{
     float:left;
     width:60%;
     margin: 15px 0;
-    margin-bottom: 15px;
     margin-left:-30px;
+}
+#coach h2{
+   margin:0;
+   margin-left: -30px;
+   margin-top: 20px;
 }
 #coach p{
     float:left;
     width:60%;
     margin-left:-30px;
     font-size: 17px;
-    color:var(--Color5);
 }
 #coach h1{
     width: 100%;
@@ -187,15 +196,15 @@ nav ul li a:hover{
     width:25%;
     padding:7px 8px;
     margin:0;
-    color:var(--Color2);
+    color:var(--Color3);
     background-color: var(--Color5);
 }
 
 #Opcoming-games{
-    width:45%;
+    width:47.5%;
     text-align: left;
     float:left;
-    margin:0 2.5%;
+    margin:0 1.25%;
     padding:0;
 }#Opcoming-games img{
     width:15%;
@@ -212,7 +221,7 @@ nav ul li a:hover{
 }
 #Achievements h2{
     width:50%;
-    margin:0;
+    margin:1.25% 0;
     padding:0;
     float:left;
 }
@@ -222,10 +231,6 @@ nav ul li a:hover{
     padding:0;
     float:left;
     font-size:1.5em;
-}
-#Twitter{
-    border: 5px solid #000;
-    border-radius: 15px;
 }
 #Achievements table{
     width:100%;
@@ -241,20 +246,22 @@ nav ul li a:hover{
     background-color: var(--Color4);
 }
 #Achievements th{
-    color:rgb(192, 192, 192);
+    color:#fff;
     background-color:var(--Color5);
 }
 #TrophyHall{
-    width:45%;
-    margin:0 2.5%;
+    width:47.5%;
+    margin:0 1.25%;
     padding:0;
     float:left;
     text-align: center;
+    margin-top: -30px;
 }
 #TrophyHall div{
     width:33%;
     margin:0;
     padding:0;
+    height: 190px;
     float:left;
     border:3px solid #7a7a7a;
 }
@@ -262,13 +269,16 @@ nav ul li a:hover{
     width:70%;
     margin:0;
     padding:0;
-    clear:both
+    clear:both;
+    margin-top: 15px;
 }
 #TrophyHall div, #TrophyHall h2, #TrophyHall div h4{
     margin:0;
     padding:0;
-    padding-top: 15px;
-} 
+}
+#TrophyHall h4{
+    font-size: 1em;
+}
 
 /*image gallery */
 .caption{
@@ -285,7 +295,7 @@ nav ul li a:hover{
     padding-bottom:30%;
 }
 #Players #sas{
-    width:28%;
+    width:33%;
     margin:0;
     text-align: center;
     float: left;
@@ -293,18 +303,18 @@ nav ul li a:hover{
 }
 #Players #sas a{
     text-decoration: none;
-    color:#000; 
-}#Players #sas a:hover{
-    color:var(--Color5);
+    color: #000;
 }
 #Players #sas img:hover{
-   border:10px solid var(--Color5);
+   padding:8px;
+   color:var(--Color5);
 }
 #Players div img{
     width:80%;
     clear:both;
     border: 2px solid var(--Color5);
     border-radius: 5px;
+    background-color: var(--Color5);
 }
 #Players div h3{
     margin-top:0px;
@@ -323,9 +333,8 @@ nav ul li a:hover{
     height:3px;
     margin-left:-20%;
     margin-top:12vw;
-    margin-bottom:30px;
+    margin-bottom:4vw;
     padding:0;
-    background-color: #000;
     clear:both;
     float:left;
 }
@@ -333,24 +342,36 @@ nav ul li a:hover{
     width:100%;
     clear:both;
     padding:0;
-    margin: auto;
+    margin: auto 0;
+    height:72vh;
 }
 #GoToTop{
     position:fixed;
     width: 7.5%;
+    aspect-ratio: 1/1;
     margin:0 1.25%;
     padding:0;
-    background-color: var(--Color1);
+    background-image: url(images/Graphics/Basketball.png);
+    background-size:100%;
     text-decoration: none;
     right:2.5%;
-}
-#GoToTop:hover{
-    background-color: var(--Color3);
+    text-align: center;
+    bottom: 15%;
+    border:3px solid var(--Color5);
+    border-radius: 999999px;
 }
 #GoToTopButton{
     text-align: center;
     margin:7.5px 7.5px;
-    color:var(--TextColor1);
+    margin-top: 15px;
+    color:var(--Color5);
+    font-size: 25px;
+}
+#GoToTop:hover{
+    background-color: var(--Color3);
+    background-image: url(images/Graphics/Basketball-Tinted.png);
+    color: var(--Color4);
+    border:3px solid var(--Color4);
 }
 #ImageWCaption{
     width:40%;
@@ -358,6 +379,7 @@ nav ul li a:hover{
     font-size: 36px;
     float:left;
     border:10px solid var(--Color2);
+    background-color: var(--Color2);
     border-radius: 15px;
 }
 #ImageWCaption img{
@@ -368,6 +390,7 @@ nav ul li a:hover{
 #ImageWCaption h2{
     margin-top:0px;
     margin-bottom:55px;
+    font-size: 1.25em;
 }
 #KeyStats{
     width:60%;
@@ -427,14 +450,15 @@ nav ul li a:hover{
 }
 .BiographyContainer p{
     width: 57.5%;
-    height:7vw;
+    height:7vh;
     float:left;
-    margin:0;
+    margin:2.5% 0;
     padding:0;
     margin-left:2.5%;
-    margin-top:2.5%;
-    margin-bottom: 2.5%;
     font-size: 90%;
     color:var(--Color1);
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.MakeLastBioLonger{
+    opacity: 0;
 }
