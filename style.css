@@ -115,15 +115,16 @@ nav ul li a:hover{
     width: 70%;
     float:left;
     margin:25px 0;
+    margin-left:3%;
 }
 .button{
     background-color: var(--Color1);
     color:var(--TextColor1);
     padding:14px 16px;
-    margin:0;
+    margin:0 15px;
     text-decoration: none;
     float:left;
-    margin:0 15px;
+    margin-left:3%;
 }
 .button:hover{
     background-color: var(--Color2 );
@@ -143,7 +144,7 @@ nav ul li a:hover{
     padding:0;
 }
 .AddCaption img{
-    margin: 0;
+    margin: 10% 0;
     padding:15px 15px;
     width: 80%;
     text-align: center;
@@ -234,9 +235,9 @@ nav ul li a:hover{
 }
 #Achievements table{
     width:100%;
-    float:center;
     padding:0;
     float:left;
+    margin-bottom: 5%;
 }   
 #Achievements th, #Achievements td{
     width:50px;
@@ -261,7 +262,7 @@ nav ul li a:hover{
     margin:0;
     padding:0;
     float:left;
-    height:200px;
+    height:50%;
 }
 #TrophyHall div img{
     width:calc(70% + 1em);
@@ -312,8 +313,6 @@ nav ul li a:hover{
     font-size: 1.15em;
 }
 #Players #sas img:hover{
-   /* box shadow to fake tint */
-  margin: 0.0001px;
   padding: 0.5em;
   border:0; 
 }
@@ -332,6 +331,7 @@ nav ul li a:hover{
     padding:0;
     margin:0;
     margin-left:15px;
+    height:100%;
 }
 
 /* player bios*/
@@ -346,10 +346,11 @@ nav ul li a:hover{
     float:left;
 }
 .BiographyContainer{
-    width:100%;
+    width:125%;
     clear:both;
     padding:0;
     margin: auto 0;
+    margin-left: -12.5%;
     height:72vh;
 }
 #GoToTop{
@@ -414,16 +415,16 @@ nav ul li a:hover{
     margin-left:5%;
 }
 .BorderLeft{
-    border-left:2px solid var(--Color1);
+    border-left:4px solid var(--Color5);
 }
 .BorderRight{
-    border-right:2px solid var(--Color1);
+    border-right:4px solid var(--Color5);
 }
 .BorderTop{
-    border-Top:2px solid var(--Color1);
+    border-Top:4px solid var(--Color5);
 }
 .BorderBottom{
-    border-bottom:2px solid var(--Color1);
+    border-bottom:4px solid var(--Color5);
 }
 .Lines2{
     padding-top:16.5px;
@@ -462,8 +463,8 @@ nav ul li a:hover{
     margin:2.5% 0;
     padding:0;
     margin-left:2.5%;
-    font-size: 1em;
-    color:var(--Color1);
+    font-size: 1.3em;
+    color:var(--Color5);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .MakeLastBioLonger{
