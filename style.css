@@ -314,7 +314,7 @@ nav ul li a:hover{
     0 0 0 0.25em var(--Color5);
   margin: 0.0001px;
   padding: 0.5em;
-  border:0;
+  border:0; 
 }
 #Players #sas img{
     width:80%;
