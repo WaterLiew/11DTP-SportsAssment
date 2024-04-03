@@ -250,8 +250,8 @@ nav ul li a:hover{
     background-color:var(--Color5);
 }
 #TrophyHall{
-    width:47.5%;
-    margin:0 1.25%;
+    width: 50%;
+    margin:0;
     padding:0;
     float:left;
     text-align: center;
@@ -273,6 +273,9 @@ nav ul li a:hover{
 }
 .RoundThis img{
     border-radius: 9999px;
+}
+.DontRoundThis img{
+    border-radius: 15px;
 }
 #TrophyHall div, #TrophyHall h2, #TrophyHall div h4{
     margin:0;
@@ -310,8 +313,6 @@ nav ul li a:hover{
 }
 #Players #sas img:hover{
    /* box shadow to fake tint */
-   box-shadow:
-    0 0 0 0.25em var(--Color5);
   margin: 0.0001px;
   padding: 0.5em;
   border:0; 
@@ -321,8 +322,6 @@ nav ul li a:hover{
     clear:both;
     border-radius: 5px;
     background-color: var(--Color5);
-    border:2px solid #000;
-    border-top: 0;
 }
 #Players div h3{
     margin-top:0px;
@@ -355,30 +354,29 @@ nav ul li a:hover{
 }
 #GoToTop{
     position:fixed;
-    width: 7.5vw;
-    height: 7.5vw;
+    width: 6em;
+    height: 6em;
     margin:0 1.25%;
     padding:0;
     background-image: url(images/Graphics/Basketball.png);
-    background-size:100%;
-    text-decoration: none;
+    background-size:contain;
     right:2.5%;
     text-align: center;
     bottom: 15%;
     border:3px solid var(--Color5);
     border-radius: 999999px;
+    text-decoration: none;
 }
 #GoToTopButton{
     color:var(--Color5);
-    font-size: 1.5em;
+    font-size: 1.15em;
     margin:0;
-    margin-top: -0.75em;
+    margin-top: 1.5em;
 }
 #GoToTop:hover{
     background-color: var(--Color3);
     background-image: url(images/Graphics/Basketball-Tinted.png);
-    color: var(--Color4);
-    border:3px solid var(--Color4);
+    border:3px solid var(--Color5);
 }
 #ImageWCaption{
     width:40%;
