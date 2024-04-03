@@ -260,8 +260,8 @@ nav ul li a:hover{
     width:33%;
     margin:0;
     padding:0;
-    height: 22vh;
     float:left;
+    height:200px;
 }
 #TrophyHall div img{
     width:calc(70% + 1em);
@@ -345,8 +345,8 @@ nav ul li a:hover{
 }
 #GoToTop{
     position:fixed;
-    width: 7.5%;
-    aspect-ratio: 1/1;
+    width: 7.5vw;
+    height: 7.5vw;
     margin:0 1.25%;
     padding:0;
     background-image: url(images/Graphics/Basketball.png);
@@ -360,9 +360,8 @@ nav ul li a:hover{
 }
 #GoToTopButton{
     text-align: center;
-    margin:auto auto;
     color:var(--Color5);
-    font-size: 25px;
+    font-size: 1.5em;
 }
 #GoToTop:hover{
     background-color: var(--Color3);
@@ -454,7 +453,7 @@ nav ul li a:hover{
     margin:2.5% 0;
     padding:0;
     margin-left:2.5%;
-    font-size: 1.25rem;
+    font-size: 1em;
     color:var(--Color1);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
