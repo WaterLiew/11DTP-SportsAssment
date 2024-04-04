@@ -67,6 +67,8 @@ nav ul li{
     margin:0;
     padding:0;
     margin-left:35px;
+    color:var(--Color4);
+    -webkit-text-stroke:2px var(--Color5);
 }
 .RightOfImage p{
     margin: 0;
@@ -108,6 +110,7 @@ nav ul li a:hover{
     padding:0;
     clear:both;
     margin-bottom:1%;
+    color:var(--Color4);
 }
 #introduction img{
     float:left;
@@ -121,15 +124,15 @@ nav ul li a:hover{
     margin-left:3%;
 }
 .DescriptionOfBskBall{
-    aspect-ratio: 1078/578;
-    background-image: url(images/Basketball\ court.png);
-    background-size:100%;
+    background-color:#fff;
     width:100%;
     text-align: center;
     clear:both;
     padding:2.5% 2.5%;
     border-radius: 25px;
     border:25px solid #6d6d6d;
+    height:fit-content;
+    height:26em;
 }
 .DescriptionOfBskBall p{
     margin:0 auto;
@@ -137,7 +140,7 @@ nav ul li a:hover{
 .DescriptionOfBskBall h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3.5em;
-    margin:0.5em 0;
+    margin:0.15em 0;
     padding:0;
     color:var(--Color4);
     -webkit-text-stroke:2px var(--Color5);
@@ -146,6 +149,26 @@ nav ul li a:hover{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.3em;
     color:var(--Color4);
+    width:58.75%;
+    padding:0;
+    margin:0;
+    margin-left: 1.25%;
+    float:right;
+    text-align: left;
+}
+#BasketballCourt{
+    width:40%;
+    height:100%;
+    padding:0;
+    margin:0;
+    float:left;
+    display:block;
+}
+#BasketballCourt img, #BasketballCourt h3{
+    width:100%;
+    padding:0;
+    margin:0;
+    float:left;
 }
 .button{
     background-color: var(--Color1);
@@ -165,6 +188,23 @@ nav ul li a:hover{
     background-color: var(--Color2);
     border: 2px solid #fff;
     float:left;
+}
+#coach a{
+    width:100%;
+    text-decoration: none;
+    color:var(--Color5);
+}
+#GoTOTOP{
+    width:7.5%;
+    margin-top: 2%;
+    margin-right: 2.5%;
+    float:left;
+    background-color: var(--Color3);
+    padding:3px 4px;
+}
+#GoTOTOP:hover{
+    color:var(--Color4);
+    background-color: var(--Color1);
 }
 .AddCaption{
     width:40%;
@@ -194,9 +234,10 @@ nav ul li a:hover{
     margin-left:-30px;
 }
 #coach h2{
+    width:50%;
    margin:0;
-   margin-left: -30px;
-   margin-top: 20px;
+   float:left;
+   margin-top: 1%;
 }
 #coach p{
     float:left;
@@ -317,6 +358,18 @@ nav ul li a:hover{
     font-size: 0.9em;
 }
 
+#Footer{
+    width:150%;
+    margin-left:-25%;
+    height:25vh;
+    background-color: #841C26;
+    clear:both;
+    float:left;
+    margin-bottom: 25%;
+}
+#Footer #container #GoTOTOP{
+    margin-bottom: -10%;
+}
 /*image gallery */
 .caption{
     clear:both;
@@ -394,15 +447,15 @@ nav ul li a:hover{
     right:2.5%;
     text-align: center;
     bottom: 15%;
-    border:3px solid var(--Color5);
+    border:3px solid var(--Color4);
     border-radius: 999999px;
     text-decoration: none;
 }
 #GoToTopButton{
-    color:var(--Color5);
-    font-size: 1.15em;
+    color:var(--Color4);
+    font-size: 1.3em;
     margin:0;
-    margin-top: 1.5em;
+    margin-top: 0em;
 }
 #GoToTop:hover{
     background-color: var(--Color3);
