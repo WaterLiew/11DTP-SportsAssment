@@ -366,9 +366,34 @@ nav ul li a:hover{
     clear:both;
     float:left;
     margin-bottom: 25%;
+    color:var(--TextColor2);
 }
-#Footer #container #GoTOTOP{
-    margin-bottom: -10%;
+
+.Half{
+    width:45%;
+    margin:0;
+    padding:0;
+    float:left;
+    margin-right: 5%; 
+}
+.Half a{
+    float:right;
+    color:var(--Color4);
+}
+.Half ul{
+    height:1.5em;
+    display:inline;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    clear:both;
+}
+.Half ul li{
+    display: inline;
+    float: left;
+    margin-right: 1.5%;
+    width:18.5%;
 }
 /*image gallery */
 .caption{
