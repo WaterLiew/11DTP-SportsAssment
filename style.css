@@ -188,6 +188,7 @@ nav ul li a:hover{
     background-color: var(--Color2);
     border: 2px solid #fff;
     float:left;
+    margin-bottom: 10vh;
 }
 #coach a{
     width:100%;
@@ -366,6 +367,7 @@ nav ul li a:hover{
     clear:both;
     float:left;
     color:var(--TextColor2);
+    margin-bottom: 25vh;
 }
 
 .Half{
