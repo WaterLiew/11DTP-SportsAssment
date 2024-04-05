@@ -370,15 +370,16 @@ nav ul li a:hover{
 }
 
 .Half{
-    width:45%;
-    margin:0;
+    margin-top: 2.5%;
+    width:47%;
+    margin:0 1.5%;
     padding:0;
     float:left;
-    margin-right: 5%; 
 }
 .Half a{
     float:right;
     color:var(--Color4);
+    margin-top: 2em;
 }
 .Half ul{
     height:1.5em;
@@ -395,6 +396,28 @@ nav ul li a:hover{
     margin-right: 1.5%;
     width:18.5%;
 }
+.Half div{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+.Half div h3, .Half div h4{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    clear:both;
+}
+.Half div h5{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left;
+    clear:both;
+    margin-bottom: 0.5em;
+}
+
 /*image gallery */
 .caption{
     clear:both;
