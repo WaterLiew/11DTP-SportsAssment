@@ -361,11 +361,10 @@ nav ul li a:hover{
 #Footer{
     width:150%;
     margin-left:-25%;
-    height:25vh;
+    height:30vh;
     background-color: #841C26;
     clear:both;
     float:left;
-    margin-bottom: 25%;
     color:var(--TextColor2);
 }
 
@@ -464,6 +463,9 @@ nav ul li a:hover{
     margin:0;
     margin-left:15px;
     height:100%;
+}
+.NoMarginBottom #sas a h3{
+    margin-bottom: 0;
 }
 
 /* player bios*/
