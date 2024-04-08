@@ -8,10 +8,6 @@
     --Color3: #B2ECE1;
     --Color4: #dd5575;
     --Color5: #841C26;
-    --Debug1: #927493;
-    --Debug2: #2bff00;
-    --Debug3: #fffb00;
-    --Debug4: #ea00ff;
     --TextColor1: #ffffff;
     --TextColor2: #EEAABA;
 }
@@ -188,7 +184,7 @@ nav ul li a:hover{
     background-color: var(--Color2);
     border: 2px solid #fff;
     float:left;
-    margin-bottom: 10vh;
+    margin-bottom: 25vh;
 }
 #coach a{
     width:100%;
@@ -220,6 +216,7 @@ nav ul li a:hover{
     width: 80%;
     text-align: center;
     border-radius: 30px;
+    margin-bottom: 5%;
 }
 .AddCaption h3{
     margin-top:-5px;
@@ -310,6 +307,7 @@ nav ul li a:hover{
     padding:0;
     float:left;
     margin-bottom: 5%;
+    font-size: 1.15em;
 }   
 #Achievements th, #Achievements td{
     width:50px;
@@ -336,9 +334,10 @@ nav ul li a:hover{
     padding:0;
     float:left;
     height:17vw;
+    font-size: 120%;
 }
 #TrophyHall div img{
-    width:calc(70% + 1em);
+    width:calc(70% + 0.5em);
     margin:0;
     padding:0;
     clear:both;
@@ -368,10 +367,10 @@ nav ul li a:hover{
     float:left;
     color:var(--TextColor2);
     margin-bottom: 25vh;
+    padding-top: 3vh;
 }
 
 .Half{
-    margin-top: 2.5%;
     width:47%;
     margin:0 1.5%;
     padding:0;
@@ -398,10 +397,11 @@ nav ul li a:hover{
     width:18.5%;
 }
 .Half div{
-    width:50%;
+    width:40%;
     margin:0;
     padding:0;
     float:left;
+    margin-right: 10%;
 }
 .Half div h3, .Half div h4{
     width:100%;
@@ -417,6 +417,10 @@ nav ul li a:hover{
     float:left;
     clear:both;
     margin-bottom: 0.5em;
+}
+.Half h1{
+    margin:0;
+    padding:0;
 }
 
 /*image gallery */
@@ -486,7 +490,14 @@ nav ul li a:hover{
     clear:both;
     padding:0;
     margin: auto 0;
-    height:100vh;
+}
+.ShortBlackLine{
+    border-top: 1px solid rgb(105, 105, 105);
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width:100%;
+    clear:both;
+    margin:0;
+    padding:0;
 }
 #GoToTop{
     position:fixed;
